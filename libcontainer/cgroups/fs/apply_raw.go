@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	libcontainerUtils "github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	libcontainerUtils "github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 )
 
 var (

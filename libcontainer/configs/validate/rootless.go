@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 )
 
 var (

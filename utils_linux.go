@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
-	"github.com/opencontainers/runc/libcontainer/specconv"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups/systemd"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/intelrdt"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/specconv"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 	"github.com/opencontainers/runtime-spec/specs-go"
 
 	"github.com/coreos/go-systemd/activation"

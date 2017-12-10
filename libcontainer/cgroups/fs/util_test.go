@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 )
 
 type cgroupTestUtil struct {

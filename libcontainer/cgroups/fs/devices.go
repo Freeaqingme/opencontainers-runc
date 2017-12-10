@@ -3,9 +3,9 @@
 package fs
 
 import (
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
 )
 
 type DevicesGroup struct {

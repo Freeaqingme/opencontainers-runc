@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/intelrdt"
 
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"

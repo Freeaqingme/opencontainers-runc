@@ -1,8 +1,8 @@
 # runc
 
 [![Build Status](https://travis-ci.org/opencontainers/runc.svg?branch=master)](https://travis-ci.org/opencontainers/runc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/opencontainers/runc)](https://goreportcard.com/report/github.com/opencontainers/runc)
-[![GoDoc](https://godoc.org/github.com/opencontainers/runc?status.svg)](https://godoc.org/github.com/opencontainers/runc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Freeaqingme/opencontainers-runc)](https://goreportcard.com/report/github.com/Freeaqingme/opencontainers-runc)
+[![GoDoc](https://godoc.org/github.com/Freeaqingme/opencontainers-runc?status.svg)](https://godoc.org/github.com/Freeaqingme/opencontainers-runc)
 
 ## Introduction
 
@@ -14,7 +14,7 @@
 We will try to make sure that `runc` and the OCI specification major versions stay in lockstep.
 This means that `runc` 1.0.0 should implement the 1.0 version of the specification.
 
-You can find official releases of `runc` on the [release](https://github.com/opencontainers/runc/releases) page.
+You can find official releases of `runc` on the [release](https://github.com/Freeaqingme/opencontainers-runc/releases) page.
 
 ### Security
 
@@ -34,7 +34,7 @@ Otherwise, if you do not want to build `runc` with seccomp support you can add `
 ```bash
 # create a 'github.com/opencontainers' in your GOPATH/src
 cd github.com/opencontainers
-git clone https://github.com/opencontainers/runc
+git clone https://github.com/Freeaqingme/opencontainers-runc
 cd runc
 
 make

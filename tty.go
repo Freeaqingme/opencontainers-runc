@@ -10,8 +10,8 @@ import (
 	"sync"
 
 	"github.com/containerd/console"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 )
 
 type tty struct {

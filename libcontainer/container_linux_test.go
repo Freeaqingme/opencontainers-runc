@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/intelrdt"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
 )
 
 type mockCgroupManager struct {

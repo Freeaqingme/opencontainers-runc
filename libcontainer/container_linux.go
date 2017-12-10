@@ -18,12 +18,12 @@ import (
 	"syscall" // only for SysProcAttr and Signal
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/criurpc"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
-	"github.com/opencontainers/runc/libcontainer/system"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/criurpc"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/intelrdt"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/sirupsen/logrus"

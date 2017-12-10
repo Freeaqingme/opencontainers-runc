@@ -6,7 +6,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 )
 
 type processOperations interface {

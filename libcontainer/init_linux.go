@@ -15,11 +15,11 @@ import (
 	"golang.org/x/sys/unix"
 
 	"github.com/containerd/console"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/system"
-	"github.com/opencontainers/runc/libcontainer/user"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/user"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

@@ -3,7 +3,7 @@ package validate
 import (
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 )
 
 func init() {

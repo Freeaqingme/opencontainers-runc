@@ -53,10 +53,10 @@ ENV ROOTFS /busybox
 RUN mkdir -p ${ROOTFS}
 
 COPY script/tmpmount /
-WORKDIR /go/src/github.com/opencontainers/runc
+WORKDIR /go/src/github.com/Freeaqingme/opencontainers-runc
 ENTRYPOINT ["/tmpmount"]
 
-ADD . /go/src/github.com/opencontainers/runc
+ADD . /go/src/github.com/Freeaqingme/opencontainers-runc
 
 RUN . tests/integration/multi-arch.bash \
     && curl -o- -sSL `get_busybox` | tar xfJC - ${ROOTFS}

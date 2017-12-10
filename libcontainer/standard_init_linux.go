@@ -8,11 +8,11 @@ import (
 	"os/exec"
 	"syscall" //only for Exec
 
-	"github.com/opencontainers/runc/libcontainer/apparmor"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/keys"
-	"github.com/opencontainers/runc/libcontainer/seccomp"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/apparmor"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/keys"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/seccomp"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
 	"github.com/opencontainers/selinux/go-selinux/label"
 
 	"golang.org/x/sys/unix"

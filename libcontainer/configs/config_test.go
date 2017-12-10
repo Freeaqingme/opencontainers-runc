@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 )
 
 func TestUnmarshalHooks(t *testing.T) {

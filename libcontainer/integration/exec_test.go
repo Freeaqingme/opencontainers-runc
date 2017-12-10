@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups/systemd"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 
 	"golang.org/x/sys/unix"
 )

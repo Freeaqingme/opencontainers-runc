@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
 	"github.com/syndtr/gocapability/capability"
 )
 

@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"syscall" // only for Signal
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
-	"github.com/opencontainers/runc/libcontainer/system"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/cgroups"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/configs"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/intelrdt"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/system"
+	"github.com/Freeaqingme/opencontainers-runc/libcontainer/utils"
 
 	"golang.org/x/sys/unix"
 )

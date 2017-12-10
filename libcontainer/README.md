@@ -1,6 +1,6 @@
 # libcontainer
 
-[![GoDoc](https://godoc.org/github.com/opencontainers/runc/libcontainer?status.svg)](https://godoc.org/github.com/opencontainers/runc/libcontainer)
+[![GoDoc](https://godoc.org/github.com/Freeaqingme/opencontainers-runc/libcontainer?status.svg)](https://godoc.org/github.com/Freeaqingme/opencontainers-runc/libcontainer)
 
 Libcontainer provides a native Go implementation for creating containers
 with namespaces, cgroups, capabilities, and filesystem access controls.
@@ -21,11 +21,11 @@ arg "init", we call the first step process "bootstrap", so you always need a "in
 function as the entry of "bootstrap".
 
 In addition to the go init function the early stage bootstrap is handled by importing
-[nsenter](https://github.com/opencontainers/runc/blob/master/libcontainer/nsenter/README.md).
+[nsenter](https://github.com/Freeaqingme/opencontainers-runc/blob/master/libcontainer/nsenter/README.md).
 
 ```go
 import (
-	_ "github.com/opencontainers/runc/libcontainer/nsenter"
+	_ "github.com/Freeaqingme/opencontainers-runc/libcontainer/nsenter"
 )
 
 func init() {
